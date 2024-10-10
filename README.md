@@ -26,10 +26,14 @@ This repository contains a simple yet powerful **Movie Search Engine** that allo
    cd movie-search-engine
    ```
 2. Dependencies:
-  ```bash
-  pip install -r requirements.txt
-  ```
-3. Run the script:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. You need a txt with like this:
+    ```text
+    Title<TAB>Description
+    ```
+4. Run the script:
    ```bash
    python searchmovies.py movies.txt
    ```
